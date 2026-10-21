@@ -1,0 +1,5 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"D1";"LED_0805_2012Metric";1;"RED";;;
+2;"J1";"PinHeader_1x02_P2.54mm_Vertical";1;"Conn_01x02_Pin";;;
+3;"R1";"R_0805_2012Metric";1;"330";;;
+4;"SW1";"SW_PUSH_6mm";1;"SW_Push";;;

@@ -1,0 +1,35 @@
+# KiCad backups and autosaves
+*-backups/
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*-save.pro
+*-save.kicad_pcb
+_autosave-*
+*.tmp
+*~
+~*.lck
+*.lck
+
+# Local, user-specific KiCad settings (window layout, view state)
+*.kicad_prl
+
+# Library cache and rescue files
+fp-info-cache
+*-rescue.*
+
+# Autorouter exchange files
+*.dsn
+*.ses
+
+# Exported netlists
+*.net
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.history/
