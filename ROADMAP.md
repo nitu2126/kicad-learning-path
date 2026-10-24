@@ -71,7 +71,8 @@ Resistor, potentiometer, LDR, capacitor (ceramic and electrolytic), LED, diode, 
 | # | Project | Status |
 |---|---|---|
 | 1 | [LED + Push-Button](01-led-button/) | Done |
-| 2 | [555 LED Blinker](02-555-blinker/) | In progress |
-| 3 to 15 | See the tables above | Planned |
+| 2 | [555 LED Blinker](02-555-blinker/) | Done |
+| 3 | [Voltage Divider, Potentiometer and Light Sensor](03-voltage-divider/) | In progress |
+| 4 to 15 | See the tables above | Planned |
 
 The plan may be adjusted as the projects progress.
