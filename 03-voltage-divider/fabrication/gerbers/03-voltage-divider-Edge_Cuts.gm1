@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.3*%
+%TF.CreationDate,2026-10-24T22:28:58+05:30*%
+%TF.ProjectId,03-voltage-divider,30332d76-6f6c-4746-9167-652d64697669,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.3) date 2026-10-24 22:28:58*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X150805944Y-74980606D02*
+X171360000Y-74980606D01*
+X171360000Y-93718442D01*
+X150805944Y-93718442D01*
+X150805944Y-74980606D01*
+M02*

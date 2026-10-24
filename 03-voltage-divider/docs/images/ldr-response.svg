@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 352" width="680" height="352" font-family="Arial, Helvetica, sans-serif">
+<title>LDR divider response to a light step</title><desc>A light step from dark to 100 lux and back, and the resulting output voltage VC at test point 5, rising with about 20 ms and falling with about 30 ms time constants.</desc>
+<rect x="0.5" y="0.5" width="679" height="351" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+<text x="340" y="24" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f2328">LDR divider: output response to a light step (illustrative)</text>
+<text x="340" y="41" text-anchor="middle" font-size="11" fill="#57606a">GL5528 (15 kΩ at 10 lux), R4 = 10 kΩ, VCC = 5 V</text>
+<line x1="100.0" y1="64" x2="100.0" y2="292" stroke="#eaeef2"/>
+<text x="100.0" y="310" text-anchor="middle" font-size="11" fill="#57606a">0</text>
+<line x1="191.7" y1="64" x2="191.7" y2="292" stroke="#eaeef2"/>
+<text x="191.7" y="310" text-anchor="middle" font-size="11" fill="#57606a">50</text>
+<line x1="283.3" y1="64" x2="283.3" y2="292" stroke="#eaeef2"/>
+<text x="283.3" y="310" text-anchor="middle" font-size="11" fill="#57606a">100</text>
+<line x1="375.0" y1="64" x2="375.0" y2="292" stroke="#eaeef2"/>
+<text x="375.0" y="310" text-anchor="middle" font-size="11" fill="#57606a">150</text>
+<line x1="466.7" y1="64" x2="466.7" y2="292" stroke="#eaeef2"/>
+<text x="466.7" y="310" text-anchor="middle" font-size="11" fill="#57606a">200</text>
+<line x1="558.3" y1="64" x2="558.3" y2="292" stroke="#eaeef2"/>
+<text x="558.3" y="310" text-anchor="middle" font-size="11" fill="#57606a">250</text>
+<line x1="650.0" y1="64" x2="650.0" y2="292" stroke="#eaeef2"/>
+<text x="650.0" y="310" text-anchor="middle" font-size="11" fill="#57606a">300</text>
+<text x="650" y="326" text-anchor="end" font-size="11" fill="#57606a">time (ms)</text>
+<text x="100" y="62" font-size="12" font-weight="bold" fill="#1f2328">Light on the LDR: dark → 100 lux → dark</text>
+<rect x="191.7" y="84" width="275.0" height="40" fill="#f59e0b" fill-opacity="0.22"/>
+<text x="329.2" y="108" text-anchor="middle" font-size="11" fill="#1f2328">light on</text>
+<path d="M100 124 H191.7 V84 H466.7 V124 H650" fill="none" stroke="#1f2328" stroke-width="2.2"/>
+<text x="92" y="88" text-anchor="end" font-size="11" fill="#57606a">100 lux</text>
+<text x="92" y="128" text-anchor="end" font-size="11" fill="#57606a">dark</text>
+<text x="100" y="160" font-size="12" font-weight="bold" fill="#0969da">Divider output VC (test point TP5)</text>
+<line x1="100" y1="170.0" x2="650" y2="170.0" stroke="#8c959f" stroke-dasharray="5 4"/>
+<text x="92" y="174.0" text-anchor="end" font-size="11" fill="#57606a">5 V</text>
+<line x1="100" y1="202.8" x2="650" y2="202.8" stroke="#8c959f" stroke-dasharray="5 4"/>
+<text x="92" y="206.8" text-anchor="end" font-size="11" fill="#57606a">3.63 V</text>
+<line x1="100" y1="290.0" x2="650" y2="290.0" stroke="#6e7781" stroke-dasharray="0"/>
+<text x="92" y="294.0" text-anchor="end" font-size="11" fill="#57606a">0 V</text>
+<path d="M100.0 288.8 L103.7 288.8 L107.3 288.8 L111.0 288.8 L114.7 288.8 L118.3 288.8 L122.0 288.8 L125.7 288.8 L129.3 288.8 L133.0 288.8 L136.7 288.8 L140.3 288.8 L144.0 288.8 L147.7 288.8 L151.3 288.8 L155.0 288.8 L158.7 288.8 L162.3 288.8 L166.0 288.8 L169.7 288.8 L173.3 288.8 L177.0 288.8 L180.7 288.8 L184.3 288.8 L188.0 288.8 L191.7 288.8 L195.3 280.6 L199.0 273.2 L202.7 266.5 L206.3 260.5 L210.0 255.0 L213.7 250.0 L217.3 245.5 L221.0 241.5 L224.7 237.8 L228.3 234.5 L232.0 231.5 L235.7 228.7 L239.3 226.3 L243.0 224.0 L246.7 222.0 L250.3 220.2 L254.0 218.5 L257.7 217.1 L261.3 215.7 L265.0 214.5 L268.7 213.4 L272.3 212.4 L276.0 211.5 L279.7 210.6 L283.3 209.9 L287.0 209.2 L290.7 208.6 L294.3 208.1 L298.0 207.6 L301.7 207.1 L305.3 206.7 L309.0 206.3 L312.7 206.0 L316.3 205.7 L320.0 205.4 L323.7 205.2 L327.3 205.0 L331.0 204.8 L334.7 204.6 L338.3 204.4 L342.0 204.3 L345.7 204.1 L349.3 204.0 L353.0 203.9 L356.7 203.8 L360.3 203.7 L364.0 203.6 L367.7 203.5 L371.3 203.5 L375.0 203.4 L378.7 203.4 L382.3 203.3 L386.0 203.3 L389.7 203.2 L393.3 203.2 L397.0 203.2 L400.7 203.1 L404.3 203.1 L408.0 203.1 L411.7 203.1 L415.3 203.0 L419.0 203.0 L422.7 203.0 L426.3 203.0 L430.0 203.0 L433.7 203.0 L437.3 202.9 L441.0 202.9 L444.7 202.9 L448.3 202.9 L452.0 202.9 L455.7 202.9 L459.3 202.9 L463.0 202.9 L466.7 202.9 L470.3 208.4 L474.0 213.6 L477.7 218.5 L481.3 223.0 L485.0 227.2 L488.7 231.2 L492.3 234.9 L496.0 238.4 L499.7 241.7 L503.3 244.7 L507.0 247.5 L510.7 250.2 L514.3 252.7 L518.0 255.0 L521.7 257.2 L525.3 259.2 L529.0 261.1 L532.7 262.9 L536.3 264.6 L540.0 266.2 L543.7 267.6 L547.3 269.0 L551.0 270.3 L554.7 271.5 L558.3 272.6 L562.0 273.6 L565.7 274.6 L569.3 275.5 L573.0 276.4 L576.7 277.2 L580.3 277.9 L584.0 278.6 L587.7 279.3 L591.3 279.9 L595.0 280.5 L598.7 281.0 L602.3 281.5 L606.0 282.0 L609.7 282.4 L613.3 282.8 L617.0 283.2 L620.7 283.6 L624.3 283.9 L628.0 284.2 L631.7 284.5 L635.3 284.8 L639.0 285.1 L642.7 285.3 L646.3 285.5 L650.0 285.7" fill="none" stroke="#0969da" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="330" y="196" text-anchor="middle" font-size="11" fill="#1f2328">steady state at 100 lux: 3.63 V</text>
+<text x="104" y="278" font-size="11" fill="#1f2328">dark: 0.05 V (R_LDR = 1 MΩ)</text>
+<text x="236" y="266" font-size="11" fill="#1f2328">rise: about 20 ms</text>
+<text x="508" y="228" font-size="11" fill="#1f2328">fall: about 30 ms</text>
+<text x="340" y="342" text-anchor="middle" font-size="10" fill="#57606a">First-order approximation using the datasheet rise (20 ms) and decay (30 ms) times as time constants. After bright light a real LDR needs seconds to settle to its dark value.</text>
+</svg>
