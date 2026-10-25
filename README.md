@@ -1,7 +1,7 @@
 # KiCad Learning Path
 
 ![KiCad 10](https://img.shields.io/badge/KiCad-10.x-314CB0?logo=kicad&logoColor=white)
-![Projects](https://img.shields.io/badge/projects-3%20of%2015-informational)
+![Projects](https://img.shields.io/badge/projects-4%20of%2015-informational)
 ![PCB](https://img.shields.io/badge/PCB-2--layer-informational)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 
@@ -47,6 +47,7 @@ The projects are ordered so that each one builds on the last. If you are learnin
 | 1 | [LED + Push-Button](01-led-button/) | <img src="01-led-button/docs/images/pcb-3d-top.png" width="160" alt="Project 1 3D render"> | Ohm's law, LED current limiting, resistors and switches, the full KiCad workflow, Gerber export | [README](01-led-button/README.md) · [Design notes](01-led-button/docs/DESIGN_NOTES.md) |
 | 2 | [555 LED Blinker](02-555-blinker/) | <img src="02-555-blinker/docs/images/pcb-3d-top.png" width="160" alt="Project 2 3D render"> | Capacitors, RC time constant, the 555 timer, decoupling, ground pours and vias, timing diagram | [README](02-555-blinker/README.md) · [Design notes](02-555-blinker/docs/DESIGN_NOTES.md) |
 | 3 | [Voltage Divider, Potentiometer and Light Sensor](03-voltage-divider/) | <img src="03-voltage-divider/docs/images/pcb-3d-top.png" width="160" alt="Project 3 3D render"> | The voltage divider formula, the loading effect, potentiometer, LDR light sensor, test points, transfer curves | [README](03-voltage-divider/README.md) · [Design notes](03-voltage-divider/docs/DESIGN_NOTES.md) |
+| 4 | [NPN Transistor Switch](04-npn-transistor-switch/) | <img src="04-npn-transistor-switch/docs/images/pcb-3d-top.png" width="160" alt="Project 4 3D render"> | The transistor as a switch, base resistor and saturation, flyback diode, net classes, switching waveform | [README](04-npn-transistor-switch/README.md) · [Design notes](04-npn-transistor-switch/docs/DESIGN_NOTES.md) |
 
 ## Roadmap
 
@@ -56,8 +57,8 @@ Fifteen simple circuits, from the first resistor to a complete microcontroller b
 |---|---|---|---|---|---|
 | 1 | [LED + Push-Button](01-led-button/) | Beginner | Basics | Resistor, LED, switch, Ohm's law | Done |
 | 2 | [555 LED Blinker](02-555-blinker/) | Beginner | Timing | Capacitor, timer IC, RC timing, decoupling | Done |
-| 3 | [Voltage Divider, Potentiometer and Light Sensor](03-voltage-divider/) | Beginner | Analog | Divider formula, loading effect, LDR, test points | In progress |
-| 4 | NPN Transistor Switch | Beginner | Analog and power | BJT, base resistor, flyback diode, saturation | Planned |
+| 3 | [Voltage Divider, Potentiometer and Light Sensor](03-voltage-divider/) | Beginner | Analog | Divider formula, loading effect, LDR, test points | Done |
+| 4 | [NPN Transistor Switch](04-npn-transistor-switch/) | Beginner | Analog and power | BJT, base resistor, flyback diode, saturation | In progress |
 | 5 | Diode Power Entry and 5 V Linear Regulator | Beginner | Power | Reverse-polarity protection, regulator, heat dissipation | Planned |
 | 6 | RC Low-Pass Filter | Intermediate | Analog | Cutoff frequency, step response, frequency response | Planned |
 | 7 | Op-Amp Buffer and Amplifier | Intermediate | Analog | Feedback, gain, single-supply operation | Planned |
@@ -131,7 +132,12 @@ kicad-learning-path/
 │   ├── 03_voltage_divider.kicad_pro / .kicad_sch / .kicad_pcb
 │   ├── fabrication/             Gerbers, drill files, BOM
 │   └── docs/                    design notes, schematic PDF, transfer curves, response diagram, images, reports
-└── 04-... to 15-...             added as each project is completed
+├── 04-npn-transistor-switch/
+│   ├── README.md
+│   ├── 04_npn_transistor_switch.kicad_pro / .kicad_sch / .kicad_pcb
+│   ├── fabrication/             Gerbers, drill files, BOM
+│   └── docs/                    design notes, schematic PDF, switching waveform, saturation curve, images, reports
+└── 05-... to 15-...             added as each project is completed
 ```
 
 **Naming:** project folders are `NN-short-name/` and the KiCad files inside are `NN_short_name.*`.

@@ -72,7 +72,8 @@ Resistor, potentiometer, LDR, capacitor (ceramic and electrolytic), LED, diode, 
 |---|---|---|
 | 1 | [LED + Push-Button](01-led-button/) | Done |
 | 2 | [555 LED Blinker](02-555-blinker/) | Done |
-| 3 | [Voltage Divider, Potentiometer and Light Sensor](03-voltage-divider/) | In progress |
-| 4 to 15 | See the tables above | Planned |
+| 3 | [Voltage Divider, Potentiometer and Light Sensor](03-voltage-divider/) | Done |
+| 4 | [NPN Transistor Switch](04-npn-transistor-switch/) | In progress |
+| 5 to 15 | See the tables above | Planned |
 
 The plan may be adjusted as the projects progress.
